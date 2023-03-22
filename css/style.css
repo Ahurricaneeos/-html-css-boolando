@@ -2,11 +2,18 @@
     text-align: center;
 }
 
+.title1 {
+    margin-bottom: 0;
+}
+
+.title2 {
+    margin-top: 0;
+}
+
 .flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: aqua;
     width: 70%;
     margin: auto;
     row-gap: 30px;
@@ -16,7 +23,11 @@
     flex-direction: column;
     height: 450px;
     width: 300px;
-    background-color: grey;
+}
+.border {
+    border-style: solid;
+    border-color: #e9e7e6;
+    border-width: 1px;
 }
 .img-size {
     height: 400px;
@@ -25,6 +36,10 @@
 
 .text {
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
 }
 
 .brand-text {
