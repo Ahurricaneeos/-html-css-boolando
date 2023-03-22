@@ -1,0 +1,47 @@
+.title {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 70%;
+    margin: auto;
+    row-gap: 30px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 300px;
+    background-color: grey;
+}
+.img-size {
+    height: 400px;
+    width: 300px;
+}
+
+.text {
+    text-align: left;
+}
+
+.brand-text {
+    margin: 0;
+    font-size: 10px;
+}
+
+.description-text {
+    margin: 0;
+    font-size: 15px;
+}
+
+.price-text {
+    margin: 0;
+    font-size: 12px;
+}
+
+.discount-text {
+
+}
